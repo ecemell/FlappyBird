@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1.68329422979363E+15,"dur": 4350775, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.68329422979538E+15,"dur": 4595, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1.68329422984741E+15,"dur": 4251772, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "05/05/2023 16:43:54",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.23f1\\Editor\\Unity.exe\" -projectpath \"C:\\Users\\Ruff Games\\My project (1)\" -useHub -hubIPC -cloudEnvironment production -licensingIpc \"LicenseClient-Ruff Games\" -hubSessionId e45a674d-2a1a-47d3-9e44-565e17d8edd6 -accessToken athu44bUL2ws7szSdEhGuAx1di4n60w0hbBpiAzNPc4011f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.23f1\\Editor\\Unity.exe -projectpath C:\\Users\\Ruff Games\\My project (1) -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-Ruff Games -hubSessionId e45a674d-2a1a-47d3-9e44-565e17d8edd6 -accessToken athu44bUL2ws7szSdEhGuAx1di4n60w0hbBpiAzNPc4011f",
+"meta_user_name": "Ruff Games",
+"meta_os_version": "Microsoft Windows NT 10.0.19045.0",
+"meta_cpu_count": "20"
+}
